@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(197, 235, 235);
+}
+
 header {
     background-color: #262626;
 }
@@ -57,6 +61,13 @@ a {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: white;
+}
+
+p {
+    text-align: center;
+    color: #9e3232;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 18px;
 }
 
 @media(max-width:768px) {
